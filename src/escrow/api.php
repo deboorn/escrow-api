@@ -114,7 +114,6 @@ class Api
 
 
         if (empty($response)) {
-            var_dump($response, $buffer);
             throw new Exception('Invalid Response from Escrow API', 500);
         }
 
